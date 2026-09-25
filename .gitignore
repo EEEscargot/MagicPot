@@ -1,0 +1,13 @@
+# Minecraft 
+run/
+logs/
+crash-reports/
+*.log
+
+build/
+out/
+.gradle/
+
+# IDEA
+.idea/
+*.iml

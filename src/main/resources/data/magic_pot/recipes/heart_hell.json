@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "!": {
+      "item":"minecraft:heart_of_the_sea"
+    },
+    "@": {
+      "item": "magic_pot:disc_hell"
+    },
+    "#": {
+      "item": "minecraft:blackstone"
+    },
+    "%": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "pattern": [
+    "%@%",
+    "@!@",
+    "#@#"
+  ],
+  "result": {
+    "item": "magic_pot:heart_hell"
+  },
+  "show_notification": true
+}

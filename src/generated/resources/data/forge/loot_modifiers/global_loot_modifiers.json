@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "magic_pot:sulfur_from_coal",
+    "magic_pot:sulfur_from_deepslate_coal_ore",
+    "magic_pot:aband_shell_from_buried_treasure",
+    "magic_pot:disc_hell_from_nether_bridge"
+  ],
+  "replace": false
+}

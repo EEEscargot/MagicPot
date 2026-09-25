@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "!": {
+      "item":"minecraft:heart_of_the_sea"
+    },
+    "@": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "#": {
+      "item": "minecraft:end_stone"
+    },
+    "%": {
+      "item": "minecraft:shulker_shell"
+    },
+    "*": {
+      "item": "minecraft:dragon_head"
+    }
+  },
+  "pattern": [
+    "%*%",
+    "@!@",
+    "###"
+  ],
+  "result": {
+    "item": "magic_pot:heart_end"
+  },
+  "show_notification": true
+}

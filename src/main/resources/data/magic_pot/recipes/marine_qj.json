@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "!": {
+      "item":"magic_pot:aband_shell"
+    },
+    "@": {
+      "item": "minecraft:pufferfish"
+    },
+    "#": {
+      "item": "minecraft:tropical_fish"
+    }
+  },
+  "pattern": [
+    "@#@",
+    "#!#",
+    "@#@"
+  ],
+  "result": {
+    "item": "magic_pot:marine_qj"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+// 1.20.1	2026-07-16T10:47:42.3804725	Global Loot Modifiers : magic_pot
+9ee47d7d0ca8d3bd3263af3a045671a91ed65b8e data/forge/loot_modifiers/global_loot_modifiers.json
+c6faa15f84975b09e8f5310eeec8ef8de23066dd data/magic_pot/loot_modifiers/aband_shell_from_buried_treasure.json
+648dd138f517b445dac4197ea73b27a22bdf0e62 data/magic_pot/loot_modifiers/disc_hell_from_nether_bridge.json
+8bd0b3493a0cbac080278991b552a37a7de2be27 data/magic_pot/loot_modifiers/sulfur_from_coal.json
+300e6f6b05bf4e9017426c96e0065ae005b8dc25 data/magic_pot/loot_modifiers/sulfur_from_deepslate_coal_ore.json

@@ -1,0 +1,15 @@
+{
+  "type": "magic_pot:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:deepslate_coal_ore",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/deepslate_coal_ore"
+    }
+  ],
+  "count": 4,
+  "item": "magic_pot:sulfur"
+}

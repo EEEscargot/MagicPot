@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "@": {
+      "tag": "minecraft:planks"
+    },
+    "#": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    " @ ",
+    "# #",
+    " # "
+  ],
+  "result": {
+    "item": "magic_pot:empty"
+  },
+  "show_notification": true
+}

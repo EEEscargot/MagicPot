@@ -1,9 +1,6 @@
 package magic_pot.blocks;
 
-import com.google.common.base.Suppliers;
-import magic_pot.magic_pot.ModEffects;
 import magic_pot.magic_pot.ModItem;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -35,16 +32,17 @@ public class Modblocks {
         registerBlockItems(name, blocks);
         return blocks;
     }
-//写了of(参数在原版代码中)还是能写copy，在后面加上"."以及你的参数就行
+
+    //写了of(参数在原版代码中)还是能写copy，在后面加上"."以及你的参数就行
 //new 后面有几个参数有block，flowerblock，注意。
     public static final RegistryObject<Block> FIRE_FLOWER =
-            registryBlock("fire_flower", () -> new FlowerBlock(()-> MobEffects.FIRE_RESISTANCE,5,
+            registryBlock("fire_flower", () -> new FlowerBlock(() -> MobEffects.FIRE_RESISTANCE, 5,
                     BlockBehaviour.Properties.copy(Blocks.ALLIUM).noCollission().noOcclusion()));
 
 
-    public static final RegistryObject<Block>POTTED_FIRE_FL=BLOCKS.register("potted_fire_fl",
-            ()-> new FlowerPotBlock(()->((FlowerPotBlock)Blocks.FLOWER_POT),Modblocks.FIRE_FLOWER,
-            BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
+    public static final RegistryObject<Block> POTTED_FIRE_FL = BLOCKS.register("potted_fire_fl",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), Modblocks.FIRE_FLOWER,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

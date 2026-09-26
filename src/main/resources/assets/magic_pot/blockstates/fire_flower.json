@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "magic_pot:blcok/fire_flower"
+      "model": "magic_pot:block/fire_flower"
     }
   }
 }

@@ -1,4 +1,4 @@
-package magic_pot.item;
+package magic_pot.itemUse;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;

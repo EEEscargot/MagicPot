@@ -1,9 +1,8 @@
 package magic_pot.magic_pot;
 
-import magic_pot.entity.Sulfur_pot_spray_enti;
-import magic_pot.item.Dime_tele_pot_spray;
-import magic_pot.item.Sea_speed_pot_spray;
-import magic_pot.item.Sulfur_pot_spray;
+import magic_pot.itemUse.Dime_tele_pot_spray;
+import magic_pot.itemUse.Sea_speed_pot_spray;
+import magic_pot.itemUse.Sulfur_pot_spray;
 import magic_pot.potions_ues.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

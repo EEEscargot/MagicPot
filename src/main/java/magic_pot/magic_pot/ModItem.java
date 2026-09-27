@@ -1,13 +1,11 @@
 package magic_pot.magic_pot;
 
-import magic_pot.item.Marine_qj_return;
-import magic_pot.potions_ues.*;
+import magic_pot.itemUse.Marine_qj_return;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
 
 
 public class ModItem {

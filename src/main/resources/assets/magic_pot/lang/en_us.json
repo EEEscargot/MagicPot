@@ -16,16 +16,19 @@
   "item.magic_pot.water": "Water bottle",
   "item.magic_pot.empty": "Empty bottle",
   "item.magic_pot.sulfur_pot_spray": "Sulfur spray bottle",
-  "effect.magic_pot.marine_qj": "The power of mraine",
-  "effect.magic_pot.sulfur_effect": "Sulfur",
-  "effect.magic_pot.dime_tele_effect": "Dime Tele Virus",
   "item.magic_pot.sea_speed_pot_spray": "Sea speed spray bottle",
   "item.magic_pot.heart_end": "Heart Of End",
-  "effect.magic_pot.love_u_effect": "loveuuuuuuuu",
-  "effect.magic_pot.iron_body_effect": "Iron Body",
   "item.magic_pot.bow_purple": "Bow_Purple",
   "item.magic_pot.bow_red": "Bow_Red",
   "item.magic_pot.bow_green": "Bow_Green",
 
-  "curios.identifier.heart": "Magic_heart"
+  "block.magic_pot.fire_flower": "Fire flower",
+
+  "curios.identifier.heart": "Magic_heart",
+
+  "effect.magic_pot.love_u_effect": "loveuuuuuuuu",
+  "effect.magic_pot.iron_body_effect": "Iron Body",
+  "effect.magic_pot.marine_qj": "The power of mraine",
+  "effect.magic_pot.sulfur_effect": "Sulfur",
+  "effect.magic_pot.dime_tele_effect": "Dime Tele Virus"
 }

@@ -11,7 +11,7 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.minecraftforge.common.data.GlobalLootModifierProvider;
 import net.minecraftforge.common.loot.LootTableIdCondition;
-import net.minecraftforge.fml.common.Mod;
+
 
 public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
@@ -29,5 +29,6 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
             add("sulfur_from_deepslate_coal_ore",new AddItemModifier(new LootItemCondition[]{
                     LootItemBlockStatePropertyCondition.hasBlockStateProperties(Blocks.DEEPSLATE_COAL_ORE).build(),
                     new LootTableIdCondition.Builder(new ResourceLocation("blocks/deepslate_coal_ore")).build()}, ModItem.SULFUR.get(),4));
-        }
+
     }
+}

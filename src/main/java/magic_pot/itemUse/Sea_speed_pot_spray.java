@@ -1,7 +1,6 @@
-package magic_pot.item;
+package magic_pot.itemUse;
 
 import magic_pot.entity.Sea_speed_pot_spray_enti;
-import magic_pot.entity.Sulfur_pot_spray_enti;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.stats.Stats;
